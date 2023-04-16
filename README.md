@@ -5,7 +5,7 @@ Welcome to the NASA App! This is a React-based web application that provides use
 ## Features
 
 - **Astronomy Picture of the Day (APOD):** Discover stunning images of the universe captured by telescopes and other instruments, along with detailed explanations and information about each image.
-- **Mars Rover photo
+- **Mars Rover photo**
 
 ## Installation
 
