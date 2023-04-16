@@ -1,0 +1,82 @@
+/* Pagination container */
+.card{
+  
+  width: 100%;
+  
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+  
+  gap:20px;
+  
+}
+.card img{
+  box-shadow: 0 2px 2px 2px rgba(9, 9, 9, 0.23);
+  border-radius: 1%;
+}
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Pagination item */
+  .page-item {
+    list-style: none;
+    margin-right: 5px;
+  }
+  
+  /* Pagination link */
+  .page-link {
+    display: block;
+    padding: 0.5rem;
+    color: #333;
+    text-decoration: none;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    cursor: pointer;
+  }
+  
+  /* Active pagination link */
+  .page-item.active .page-link {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+  }
+  
+  /* Disabled pagination link */
+  .page-item.disabled .page-link {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+  
+  /* Next and Previous pagination links */
+  .page-item.next, .page-item.previous {
+    display: flex;
+  }
+  
+  /* Next and Previous pagination link text */
+  .page-item.next .page-link::after, .page-item.previous .page-link::before {
+    content: "";
+  }
+  
+  /* Next and Previous pagination link icon */
+  .page-item.next .page-link::after {
+    content: ">";
+  }
+  
+  .page-item.previous .page-link::before {
+    content: "<";
+  }
+  
+  /* Ellipsis "..." separator */
+  .page-item.break {
+    padding: 0.5rem;
+  }
+  
+  /* Ellipsis "..." separator link */
+  .page-item.break .page-link {
+    cursor: default;
+  }
+  

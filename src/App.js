@@ -1,24 +1,24 @@
-import logo from './logo.svg';
+
 import './App.css';
+import MarsRoverImages from './components/Card';
+import ApodImages from './components/Apod';
+import About from './components/About';
+import Navbar from './components/navbar/Navbar';
+import { Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <Navbar></Navbar>
+    <div className="container">
+     
+      <Routes>
+         <Route path="/" element={<ApodImages/>} />
+         <Route path="/Mars" element={<MarsRoverImages itemsPerPage={20}/>} />
+         <Route path="/About" element={<About />} />
+       </Routes>
+
+    </div></>
   );
 }
 
