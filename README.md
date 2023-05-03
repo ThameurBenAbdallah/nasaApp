@@ -40,6 +40,5 @@ The NASA App is open source software released under the [MIT License](LICENSE).
 
 ## Contact Us
 
-If you have any questions, feedback, or suggestions about the NASA App, please feel free to contact us at [email protected] or through our official social media channels.
+If you have any questions, feedback, or suggestions about the NASA App, please feel free to contact us at bathameur@gmail.com.
 
-Thank you for using the NASA App and joining us in the journey to explore the wonders of the universe!
